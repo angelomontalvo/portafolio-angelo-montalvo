@@ -16,7 +16,7 @@ export default function Header() {
       <section className="flex flex-col items-center bg-linear-to-b from-[#D9D9FF] to-[#F8F3F9] px-4 py-4">
         <nav className="flex items-center justify-between gap-8 bg-white/60 border border-white rounded-full px-4 md:px-2 py-2.5 w-full max-w-3xl">
           <a
-            href="https://prebuiltui.com"
+            href="https://angelomontalvo.online"
             className="flex items-center md:pl-3"
           >
             <svg
@@ -45,35 +45,35 @@ export default function Header() {
               onClick={() => setMobileOpen(false)}
               className="text-gray-600 hover:text-gray-700 text-sm"
             >
-              Services
+              Servicios
             </a>
             <a
               href="#"
               onClick={() => setMobileOpen(false)}
               className="text-gray-600 hover:text-gray-700 text-sm"
             >
-              Reviews
+              Sobre mi
             </a>
             <a
               href="#"
               onClick={() => setMobileOpen(false)}
               className="text-gray-600 hover:text-gray-700 text-sm"
             >
-              Pricing
+              Stack
             </a>
             <a
               href="#"
               onClick={() => setMobileOpen(false)}
               className="text-gray-600 hover:text-gray-700 text-sm"
             >
-              Projects
+              Proyectos
             </a>
             <a
               href="#"
               onClick={() => setMobileOpen(false)}
               className="text-gray-600 hover:text-gray-700 text-sm"
             >
-              Contact Us
+              Contacto
             </a>
 
             <button
