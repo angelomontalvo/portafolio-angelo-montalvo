@@ -1,6 +1,7 @@
 name: Deploy portafolio react + vite to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main # Set the branch you want to deploy from
